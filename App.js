@@ -106,4 +106,14 @@ const styles = StyleSheet.create({
    backgroundColor: '#fff',
    alignItems: 'center'
   },
+  button : {
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    backgroundColor: 'lightblue',
+    margin: 5,
+    borderColor: 'black',
+    borderWidth: 1,
+    width: '20%',
+    height: 40
+  },
  });
