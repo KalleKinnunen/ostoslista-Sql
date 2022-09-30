@@ -95,17 +95,15 @@ const listSeparator = () => {
 }
 
 const styles = StyleSheet.create({
-  input: {
-    width: 300,
-    height: 25,
-    borderColor: 'gray',
-    borderWidth: 1,
-    marginTop: 90
-  },
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+   flex: 1,
+   backgroundColor: '#fff',
+   alignItems: 'center',
+   justifyContent: 'center',
   },
-});
+  listcontainer: {
+   flexDirection: 'row',
+   backgroundColor: '#fff',
+   alignItems: 'center'
+  },
+ });
